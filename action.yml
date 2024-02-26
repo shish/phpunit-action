@@ -73,6 +73,10 @@ inputs:
     description: Path to directory to whitelist for code coverage analysis
     required: false
 
+  coverage_filter:
+    description: Include directory in code coverage reporting
+    required: false
+
   coverage_clover:
     description: Generate code coverage report in Clover XML format
     required: false
